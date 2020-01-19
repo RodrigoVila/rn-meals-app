@@ -1,13 +1,16 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
 const CategoriesScreen = props => {
   return (
     <View style={styles.screen}>
-      <Text>Cat Screen</Text>
+      <Text>The Categories Screen!</Text>
+      <Button title="Go to Meals!" onPress={() => {
+          props.navigation.navigate({routeName: 'CategoryMeals'});
+      }} />
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   screen: {
@@ -15,6 +18,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   }
-})
+});
 
-export default CategoCateen
+export default CategoriesScreen;
