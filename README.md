@@ -1,6 +1,6 @@
 ## React Native Meals App
 
-![App demo image](https://github.com/RodrigoVila/rn-meals-app/blob/master/meals.jpg?raw=true | width: 250 )
+![App demo image](https://github.com/RodrigoVila/rn-meals-app/blob/master/meals.jpg?raw=true){:height="50%" width="50%"}
 
 This app was made with React Native and Redux (This part is still to be implemented).
 
